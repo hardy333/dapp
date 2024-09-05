@@ -5,7 +5,38 @@
 }
 
 :root {
+  --color-primary: #6a6ce0;
+  --color-danger: #f48686;
+  --color-success: #3dcb6599;
+
+  --color-bg-main: #e8f1fd;
+  --color-bg-secondary: #f6faff;
+  --color-bg-input: #e8f1fd;
+
+  --color-text-main: #30507d;
+  --color-text-secondary: #545871;
+  --color-text-input: #6c86a8;
+  --color-text-placeholder: #b0b0b0;
+
+  --shadow-1: 0px 2px 4px 0px #6a6ce026;
 }
 
 body {
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 100%;
+  width: 1200px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+.container-mobile {
+  max-width: 100%;
+  width: 375px;
+  margin: auto;
+  padding: 30px 20px;
+
+  background-color: lime;
 }
